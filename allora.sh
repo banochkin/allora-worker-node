@@ -40,7 +40,7 @@ execute_with_prompt "sudo apt update -y && sudo apt upgrade -y"
 echo
 
 echo -e "${BOLD}${DARK_YELLOW}Установка пакетов jq...${RESET}"
-execute_with_prompt "sudo apt install jq"
+execute_with_prompt "sudo apt install jq -y"
 echo
 
 echo -e "${BOLD}${DARK_YELLOW}Установка Docker...${RESET}"
